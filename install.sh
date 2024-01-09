@@ -17,3 +17,7 @@ echo \
 apt-get update
 
 apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+
+docker run hello-world
+
+systemctl enable --now docker
